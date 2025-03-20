@@ -1,0 +1,20 @@
+/* ✅ Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .modal {
+      width: 90%;
+    }
+    button {
+      padding: 8px 12px;
+    }
+  }
+  
+  /* ✅ Adjustments for Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .modal {
+      width: 60%;
+    }
+  }
+  

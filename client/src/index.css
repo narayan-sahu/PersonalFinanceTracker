@@ -1,0 +1,64 @@
+/* ✅ Global Styles for Full Responsiveness */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ✅ Ensure Background is Applied Correctly */
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* ✅ Prevent horizontal scrolling */
+  background-color: #0A1F44 !important; /* ✅ Force Deep Blue Background */
+  color: #FFFFFF; /* White Text */
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ✅ Fix Page Background */
+.page-container {
+  background-color: #0A1F44 !important; /* ✅ Deep Blue */
+  min-height: 100vh;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+/* ✅ Fix Navbar & Footer */
+.navbar, .footer {
+  background-color: #0A1F44 !important;
+}
+
+/* ✅ Make Layouts Compact */
+.layout-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ✅ Fix Buttons */
+button {
+  background-color: #FF5722;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* ✅ Ensure Inputs Stand Out */
+input, select {
+  background-color: #FFFFFF;
+  color: #212121;
+  border: 2px solid #FF5722;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
